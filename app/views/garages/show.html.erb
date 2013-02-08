@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @garage.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @garage.description %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @garage.year %>
+</p>
+
+<p>
+  <b>Brand:</b>
+  <%= @garage.brand %>
+</p>
+
+<p>
+  <b>Model:</b>
+  <%= @garage.model %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @garage.price %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= @garage.image %>
+</p>
+
+
+<%= link_to 'Edit', edit_garage_path(@garage) %> |
+<%= link_to 'Back', garages_path %>
